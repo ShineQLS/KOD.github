@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:linear-gradient(180deg,
+  #242833 3.98%,
+  rgba(45, 52, 60, 0.35) 51.04%,
+  #242833 92.19%) ;
+  background-color: #2fbdba;
+}
+
+.main-headers {
+  background-image: url(/img/6231-SeriesHeaders_HxH_2000x800.jpg);
+  height: 660px;
+  background-position: center;
+  background-size: cover;
+}
+h1,
+h2 {
+  text-align: left;
+  color: #0b4018;
+}
+button {
+  padding: 5px 15px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+}
+.menu {
+  width: 100%;
+  padding: 20px 0px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.menu button:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+.menu td {
+  max-width: 70px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid;
+  margin: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+
+ul {
+  padding-left: 50px;
+  font-family: "Noto Serif", serif;
+}
+li {
+  padding: 20px;
+}
+img {
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: auto;
+}
+.test-table {
+  margin-left: 12px;
+}
+p {
+  margin: 30px 0px;
+  font-family: "Noto Serif", serif;
+  text-indent: 20px;
+}
+.Ptext {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+thead td {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+tbody td{
+  font-family: "Noto Serif", serif;
+  padding: 1px;
+  text-align: center;
+}
+table a {
+  text-decoration: none;
+  color: black;
+}
+.Gon {
+  height: 100px;
+}
+.Killua {
+  height: 100px;
+}
+.Kurapika {
+  height: 100px;
+}
+.Leorio {
+  height: 100px;
+}
+.Hisoko {
+  height: 100px;
+}
+.illumi {
+  height: 100px;
+}
+.Kuroro {
+  height: 100px;
+}
+
+.text3 {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.text3:hover {
+  opacity: 0.5;
+  
+}
+.text3:active {
+  box-shadow: none;
+}
+.centralText {
+  padding-left: 50px;
+}
+
+footer {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
